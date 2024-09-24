@@ -21,10 +21,10 @@ CONFIGURAR:
 ;---------------PRINCIPAL--------------
 MAIN:
                    SLEEP
-;AQUI PUEDE INTRODUCIR UN PROGRAMA PRINCIPAL
+;AQUÍ PUEDE INTRODUCIR UN PROGRAMA PRINCIPAL
                    GOTO   MAIN
 ;--------------------------------------
-;SURUTINA DE INTERRUCIÓN
+;SUBRUTINA DE INTERRUCIÓN
 INT_RB0:
                    BTFSS  PULSADOR_RB0   ;SALTA SI EL PULSADOR ESTÁ EN 1 LOGICO
                    GOTO   INT_RB0        ;IR A LA ETIQUETA INT_RB0
