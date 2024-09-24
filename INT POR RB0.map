@@ -1,0 +1,46 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Mon Sep 23 20:25:37 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x000044
+.config_2007_INT POR RB0.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x000025      
+                            0x002007    0x002007      
+            36 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   APAGAR   0x00001a    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+             CONFIGUACION   0x000005    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                  INT_RB0   0x00001c    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                  LIMPIAR   0x000023    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                     MAIN   0x000016    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                    MOTOR   0x00001e    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+             CONFIGUACION   0x000005    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                     MAIN   0x000016    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                   APAGAR   0x00001a    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                  INT_RB0   0x00001c    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                    MOTOR   0x00001e    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+                  LIMPIAR   0x000023    program     static C:\Users\USUARIO\Desktop\LAB\INT POR RB0.asm
+
+
