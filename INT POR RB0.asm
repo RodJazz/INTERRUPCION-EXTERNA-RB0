@@ -8,10 +8,10 @@
     #DEFINE  MOTOR_AC PORTA,0
     #DEFINE  PULSADOR_INT PORTB,0
                    ORG    0X00    
-                   GOTO   CONFIGUACION
+                   GOTO   CONFIGURACION
                    ORG    0X04
                    GOTO   INT_RB0
-CONFIGUACION:
+CONFIGURACION:
                    BCF    STATUS,RP0
                    BCF    STATUS,RP1
                    CLRF   PORTA
